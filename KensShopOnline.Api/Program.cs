@@ -1,4 +1,6 @@
 using KensShopOnline.Api.Data;
+using KensShopOnline.Api.Repositories.Contracts;
+using KensShopOnline.Api.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,6 +16,10 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContextPool<KensShopOnlineDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("KensShopOnlineConnection"))
 );
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
+//builder.Services.AddScoped<IShoppingCartRepository, ShoppingCartRepository>();
+
+
 
 var app = builder.Build();
 
