@@ -3,7 +3,7 @@ using KensShopOnline.Models.Dtos;
 
 namespace KensShopOnline.Api.Extensions
 {
-    public  static class DtoCoversions
+    public  static class DtoConversions
     {
         public static IEnumerable<ProductCategoryDto> ConvertToDto(this IEnumerable<ProductCategory> productCategories)
         {

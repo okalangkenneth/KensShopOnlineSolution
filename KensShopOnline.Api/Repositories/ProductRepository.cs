@@ -7,15 +7,15 @@ namespace KensShopOnline.Api.Repositories
 {
     public class ProductRepository : IProductRepository
     {
-        private readonly KensShopOnlineDbContext shopOnlineDbContext;
+        private readonly KensShopOnlineDbContext kensShopOnlineDbContext;
 
-        public ProductRepository(KensShopOnlineDbContext shopOnlineDbContext)
+        public ProductRepository(KensShopOnlineDbContext kensShopOnlineDbContext)
         {
-            this.shopOnlineDbContext = shopOnlineDbContext;
+            this.kensShopOnlineDbContext = kensShopOnlineDbContext;
         }
         public async Task<IEnumerable<ProductCategory>> GetCategories()
         {
-            var categories = await this.shopOnlineDbContext.ProductCategories.ToListAsync();
+            var categories = await this.kensShopOnlineDbContext.ProductCategories.ToListAsync();
 
             return categories;
 
@@ -23,13 +23,13 @@ namespace KensShopOnline.Api.Repositories
 
         public async Task<ProductCategory> GetCategory(int id)
         {
-            var category = await shopOnlineDbContext.ProductCategories.SingleOrDefaultAsync(c => c.Id == id);
+            var category = await kensShopOnlineDbContext.ProductCategories.SingleOrDefaultAsync(c => c.Id == id);
             return category;
         }
 
         public async Task<Product> GetItem(int id)
         {
-            var product = await shopOnlineDbContext.Products
+            var product = await kensShopOnlineDbContext.Products
                                 .Include(p => p.ProductCategory)
                                 .SingleOrDefaultAsync(p => p.Id == id);
             return product;
@@ -37,7 +37,7 @@ namespace KensShopOnline.Api.Repositories
 
         public async Task<IEnumerable<Product>> GetItems()
         {
-            var products = await this.shopOnlineDbContext.Products
+            var products = await this.kensShopOnlineDbContext.Products
                                      .Include(p => p.ProductCategory).ToListAsync();
 
             return products;
@@ -46,7 +46,7 @@ namespace KensShopOnline.Api.Repositories
 
         public async Task<IEnumerable<Product>> GetItemsByCategory(int id)
         {
-            var products = await this.shopOnlineDbContext.Products
+            var products = await this.kensShopOnlineDbContext.Products
                                      .Include(p => p.ProductCategory)
                                      .Where(p => p.CategoryId == id).ToListAsync();
             return products;
