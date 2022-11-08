@@ -44,15 +44,9 @@ RESTful APIs have become increasingly popular over the last few years. There are
 
 Blazor WebAssembly supports the consumption of RESTful APIs directly. This means that the API can easily interact with the web service using the HttpClient class.
 
-
-
 <!-- ## Features
 Our APIs is consumed using the C# programming language that supports HTTP requests.
 RESTful API allows developers to create applications and web services by focusing solely on the interaction with clients rather than details regarding implementation.Web browsers need to send HTTP requests to servers via URLs through HTTP method verbs(GET /POST/PUT etc).A request sent via GET verb retrieves files from a server while PUT or POST sends updates to the server depending on whether we want to add new records or update existing ones respectively.-->
-
-
-
-
 
 ## Technologies Used
 - Visual Studio - 2022
@@ -69,9 +63,6 @@ How to install / setup one's local environment / get started with the project.--
 ### Create project
 
 In Visual Studio 2022 we first create two projects, data flow is as indicated in the diagram. 
-
-
-
 <img src="WorkFlow.jpg">
 
 #### Web API
@@ -101,13 +92,9 @@ Below are the final project files in visual studio.
 
 <!-- If you have screenshots you'd like to share, include them here. -->
 
-
-
-
 ## Usage
 
-
-<!--In order to interact with data from the SQL server , we use RESTful API. The API project includes a swagger interface which has the products and shopping cart resources.  
+In order to interact with data from the SQL server , we use RESTful API. The API project includes a swagger interface which has the products and shopping cart resources.  
 
 Swagger helps in generating the API documentation for the code and makes it easier to share the API with others as well as keep track of changes to the API. It has futures like versioning, validation, authentication and caching.
 
