@@ -1,12 +1,6 @@
 # KensShopOnlineSolution
 # A practical approach to consuming a RESTFul Web service using Blazor WebAssembly
-##Product List
 
- <img src="KenShopOnlineImages\Product List.jpg">
- 
-##Product detail
-
-<img src="KenShopOnlineImages\Product details.jpg">
 
 # Description
 
@@ -78,17 +72,23 @@ Once the API project has been created, the final step was to generate the corres
 
 To test the API before its published I  used Swagger. This is done through HTTP requests that mimic the user cases. Below is a snap shot of Swaggere interface showing a request for all the products and  the response of 200 OK and in JSON format.
 
-<img src="KenShopOnlineImages\Swagger.jpg">
+
 
 
 Below are the final project files in visual studio.
 
 <img src="KenShopOnlineImages\ProjectFiles.jpg">
 
+##Product List
+
+ <img src="KenShopOnlineImages\Product List.jpg">
+ 
+##Product detail
+
+<img src="KenShopOnlineImages\Product details.jpg">
+
 
 <img src="KenShopOnlineImages\.jpg">
-
-
 
 <!-- If you have screenshots you'd like to share, include them here. -->
 
@@ -98,7 +98,7 @@ In order to interact with data from the SQL server , we use RESTful API. The API
 
 Swagger helps in generating the API documentation for the code and makes it easier to share the API with others as well as keep track of changes to the API. It has futures like versioning, validation, authentication and caching.
 
-<img src="SwedenTourInfoImages\Swagger.png">
+<img src="KenShopOnlineImages\Swagger.jpg">
 
 To consume the API a second project, KensShopOnline.Web is built.
 
