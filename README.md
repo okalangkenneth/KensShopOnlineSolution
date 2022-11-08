@@ -1,9 +1,13 @@
 # KensShopOnlineSolution
 # A practical approach to consuming a RESTFul Web service using Blazor WebAssembly
-Product List
+##Product List
+
  <img src="KenShopOnlineImages\Product List.jpg">
-Product detail
+ 
+##Product detail
+
 <img src="KenShopOnlineImages\Product details.jpg">
+
 # Description
 
 In this project I built a  shopping cart application using blazor webassembly.
