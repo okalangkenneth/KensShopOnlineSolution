@@ -2,9 +2,9 @@
 # A practical approach to consuming a RESTFul Web service using Blazor WebAssembly
 
 
-# Description
+## Description
 
-In this project I built a  shopping cart application using blazor webassembly.
+In this project I built a  shopping cart and payment system application using Blazor WebAssembly and RESTful Api.
 
 ## Table of Contents
 * [General Info](#general-info)
