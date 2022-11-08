@@ -65,7 +65,7 @@ In Visual Studio 2020 we first create two projects, data flow is as indicated in
 
 
 
-<img src="SwedenTourInfoImages\workflow.png">
+<img src="KenShopOnlineImages\workflow.png">
 
 #### Web API
 In the first project I will create various WEBAPIs according to my requirement,I created 4 APIs for my CRUD operations. I then add NuGet packages which contain all the necessary classes and interfaces that facilitate the creation of a Web API. Once the project has been created, the next step is to create the foundation of the API. This includes defining the services, middleware, endpoints, authentication, and routing.
@@ -80,7 +80,7 @@ Once the API project has been created, the final step was to generate the corres
 
 To test the API before its published I  used Swagger. This is done through HTTP requests that mimic the user cases. Below is a snap shot of Swaggere interface showing a request for all the products and  the response of 200 OK and in JSON format.
 
-<img src="KensShopOnlineImages\Swagger.jpg">
+<img src="KenShopOnlineImages\Swagger.jpg">
 
 
 Below are the final project files in visual studio.
