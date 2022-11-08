@@ -34,7 +34,7 @@ RESTful APIs are used to provide data from a server to a client application. The
 
 RESTful APIs have become increasingly popular over the last few years. There are many reasons why they are becoming more common. One reason is that they are easy to consume as they are built using HTTP and JSON and with frameworks such as ASP NET Core. In addition RESTful APIs are scalable and are stateless. This means that each request does not require any previous state to be maintained.
 
-ASP NET Core supports the consumption of RESTful APIs directly. This means that a our  application can easily interact with an external web service. In order to consume a RESTful API,  our .NET Core project is configured with the correct configuration file and the correct provider. Once the project is configured, the application can use the HttpClient class to connect to the web service.
+Blazor WebAssembly supports the consumption of RESTful APIs directly. This means that the API can easily interact with the web service using the HttpClient class.
 
 
 
