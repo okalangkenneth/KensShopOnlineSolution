@@ -10,8 +10,8 @@ In this project I built a  shopping cart application using blazor webassembly.
 * [Technologies Used](#technologies-used)
 * [Setup](#setup)
     - [Create project](#create-project)
-      --[Web API](#web-api)
-      --[Blazor WebAssembly](#blazor-webassembly)
+      -[Web API](#web-api)
+      -[Blazor WebAssembly](#blazor-webassembly)
     - 
 * [Usage](#usage)
 * [Project Status](#project-status)
