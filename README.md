@@ -25,7 +25,7 @@ In this project I built a  shopping cart application using blazor webassembly.
   The live versions of the project are below.
 > Live demo [KensShopOnLineApi](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 > Live demo [KensShopOnlineWeb](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
-> GitHubRepo [SwedenTourInfo](https://github.com/okalangkenneth/SwedenTourInfo)
+> GitHubRepo [https://github.com/okalangkenneth/KensShopOnlineSolution)
 
 
 
