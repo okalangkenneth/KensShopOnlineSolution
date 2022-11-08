@@ -1,5 +1,5 @@
 # KensShopOnlineSolution
-# A practical approach to consuming a RESTFul Web service.
+# A practical approach to consuming a RESTFul Web service using Blazor WebAssembly
 <!--<img src="SwedenTourInfoWeb\Screenshot_1.png">-->
 # Description
 
