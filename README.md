@@ -122,7 +122,7 @@ To do:
 ## Acknowledgements
 
 - This project was inspired by [Farm Logs](https://farmlogs.com/). A farm management app, designed to help farmers execute their grain marketing decisions.
-- This project was based on [this tutorial]([https://www.udemy.com/course/aspnet-core-angular/](https://www.udemy.com/course/restful-api-with-asp-dot-net-core-web-api/learn/lecture/33346366?start=0#overview)).
+- This project was based on [this tutorial](https://www.udemy.com/course/restful-api-with-asp-dot-net-core-web-api/learn/lecture/33346366?start=0#overview).
 - Many thanks to Bhrugen Patel
 
 
