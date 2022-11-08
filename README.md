@@ -65,7 +65,7 @@ In Visual Studio 2020 we first create two projects, data flow is as indicated in
 
 
 
-<img src="KenShopOnlineImages\workflow.png">
+<img src="KenShopOnlineImages\WorkFlow.jpg">
 
 #### Web API
 In the first project I will create various WEBAPIs according to my requirement,I created 4 APIs for my CRUD operations. I then add NuGet packages which contain all the necessary classes and interfaces that facilitate the creation of a Web API. Once the project has been created, the next step is to create the foundation of the API. This includes defining the services, middleware, endpoints, authentication, and routing.
