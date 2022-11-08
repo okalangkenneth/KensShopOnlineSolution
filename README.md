@@ -80,15 +80,15 @@ Once the API project has been created, the final step was to generate the corres
 
 To test the API before its published I  used Swagger. This is done through HTTP requests that mimic the user cases. Below is a snap shot of Swaggere interface showing a request for all the products and  the response of 200 OK and in JSON format.
 
-<img src="SwedenTourInfoImages\Insomnia.png">
+<img src="KensShopOnlineImages\Swagger.jpg">
 
 
 Below are the final project files in visual studio.
 
-<img src="SwedenTourInfoImages\ProjectFiles.png">
+<img src="KensShopOnlineImages\ProjectFiles.jpg">
 
 
-<img src="SwedenTourInfoImages\SwedenTourInfoWeb.png">
+<img src="KensShopOnlineImages\SwedenTourInfoWeb.png">
 
 
 
