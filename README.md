@@ -85,10 +85,10 @@ To test the API before its published I  used Swagger. This is done through HTTP 
 
 Below are the final project files in visual studio.
 
-<img src="KensShopOnlineImages\ProjectFiles.jpg">
+<img src="KenShopOnlineImages\ProjectFiles.jpg">
 
 
-<img src="KensShopOnlineImages\SwedenTourInfoWeb.png">
+<img src="KenShopOnlineImages\.jpg">
 
 
 
