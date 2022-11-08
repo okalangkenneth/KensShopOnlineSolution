@@ -75,7 +75,7 @@ In Visual Studio 2022 we first create two projects, data flow is as indicated in
 <img src="WorkFlow.jpg">
 
 #### Web API
-In the first project I will create various WEBAPIs according to my requirement,I created 4 APIs for my CRUD operations. I then add NuGet packages which contain all the necessary classes and interfaces that facilitate the creation of a Web API. Once the project has been created, the next step is to create the foundation of the API. This includes defining the services, middleware, endpoints, authentication, and routing.
+In the first project I will create a WEB Api for my CRUD operations. I then add NuGet packages which contain all the necessary classes and interfaces that facilitate the creation of the Web API. Once the project has been created, the next step is to create the foundation of the API. This includes defining the services, middleware, endpoints, authentication, and routing.
 Once the foundation has been created, I then defined the rules that enable the Blazor client to access the API. After that, I will host my on Heroku. 
 
 Once the API project has been created, the final step was to generate the corresponding Blazor client code. This code will be used to access the Web API from the .Blazor application. To generate the code, I first need to create a new class that corresponds to the requested endpoint. The class needs to implement the IWebApi interface. This interface contains the necessary methods that enable the Blazor client to access the requested endpoint. Once the class has been created, I create a method that downloads the requested resource. This method needs a signature that contains the following three parameters:
