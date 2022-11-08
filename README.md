@@ -61,7 +61,7 @@ RESTful API allows developers to create applications and web services by focusin
 How to install / setup one's local environment / get started with the project.-->
 ### Create project
 
-In Visual Studio 2020 we first create two projects, data flow is as indicated in the diagram. 
+In Visual Studio 2022 we first create two projects, data flow is as indicated in the diagram. 
 
 
 
